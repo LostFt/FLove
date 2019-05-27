@@ -89,6 +89,9 @@
 document.addEventListener('WeixinJSBridgeReady', function() {
         document.getElementById('audios').play()
     })
+    document.addEventListener('touchstart', function() {
+        document.getElementById('audios').play()
+    })
     $(function(){
         var i=0;
         var $btn = $('.section-btn li'),
