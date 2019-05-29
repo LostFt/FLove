@@ -96,9 +96,10 @@
     $(function(){
         var ua = window.navigator.userAgent.toLowerCase();
         if (ua.match(/MicroMessenger/i) == 'micromessenger') {
-            alert("1");
+            var img1=document.getElementById('img1');
+            img1.setAttribute("src","bj.png");
         } else {
-            alert("0");
+           
         };
         var i=0;
         var $btn = $('.section-btn li'),
