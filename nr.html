@@ -19,10 +19,10 @@
         .section-wrap .section .title p{ padding:0 4%;opacity:0}
         .section-wrap .section .title.active .tit{ opacity:1;transform:translateY(-25px);-webkit-transform:translateY(-25px);transition:all 2s cubic-bezier(0.86,0,0.8,1);-webkit-transition:all 2s cubic-bezier(0.86,0,0.8,1);}
         .section-wrap .section-1{ background-color: white}
-        .section-wrap .section-2{ background-color:#5cb85c}
-        .section-wrap .section-3{ background-color:#5bc0de}
-        .section-wrap .section-4{ background-color:#f0ad4e}
-        .section-wrap .section-5{ background-color:#d9534f}
+        .section-wrap .section-2{ background-color: white}
+        .section-wrap .section-3{ background-color: white}
+        .section-wrap .section-4{ background-color: white}
+        .section-wrap .section-5{ background-color: white}
         .put-section-0{ transform:translateY(0);-webkit-transform:translateY(0);}
         .put-section-1{ transform:translateY(-100%);-webkit-transform:translateY(-100%);}
         .put-section-2{ transform:translateY(-200%);-webkit-transform:translateY(-200%);}
@@ -53,22 +53,22 @@
     </div>
     <div class="section section-2">
         <div class="title">
-            <p class="tit">老婆我爱你</p>
+            <p class="tit"><img id="img2" src="er.png"></p>
         </div>
     </div>
     <div class="section section-3">
         <div class="title">
-            <p class="tit">老婆我爱你</p>
+            <p class="tit"><img id="img3" src="san.png"></p>
         </div>
     </div>
     <div class="section section-4">
         <div class="title">
-            <p class="tit">老婆我爱你</p>
+            <p class="tit"><img id="img4" src="si.png"></p>
         </div>
     </div>
     <div class="section section-5">
         <div class="title">
-            <p class="tit">老婆我爱你</p>
+            <p class="tit"><img id="img5" src="end.png"></p>
         </div>
     </div>
 </section>
@@ -98,6 +98,14 @@
         if (ua.match(/MicroMessenger/i) == 'micromessenger') {
             var img1=document.getElementById('img1');
             img1.setAttribute("src","yiwx.png");
+            var img2=document.getElementById('img2');
+            img1.setAttribute("src","erwx.png");
+            var img3=document.getElementById('img3');
+            img1.setAttribute("src","sanwx.png");
+            var img4=document.getElementById('img4');
+            img1.setAttribute("src","siwx.png");
+            var img5=document.getElementById('img5');
+            img1.setAttribute("src","endwx.png");
         } else {
            
         };
