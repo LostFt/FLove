@@ -48,27 +48,27 @@
 <section class="section-wrap">
     <div class="section section-1">
         <div class="title active">
-            <p class="tit"><img id="img1" src="yi.png"></p>
+            <p class="tit"><img id="img1"></p>
         </div>
     </div>
     <div class="section section-2">
         <div class="title">
-            <p class="tit"><img id="img2" src="er.png"></p>
+            <p class="tit"><img id="img2"></p>
         </div>
     </div>
     <div class="section section-3">
         <div class="title">
-            <p class="tit"><img id="img3" src="san.png"></p>
+            <p class="tit"><img id="img3"></p>
         </div>
     </div>
     <div class="section section-4">
         <div class="title">
-            <p class="tit"><img id="img4" src="si.png"></p>
+            <p class="tit"><img id="img4"></p>
         </div>
     </div>
     <div class="section section-5">
         <div class="title">
-            <p class="tit"><img id="img5" src="end.png"></p>
+            <p class="tit"><img id="img5"></p>
         </div>
     </div>
 </section>
@@ -99,15 +99,24 @@
             var img1=document.getElementById('img1');
             img1.setAttribute("src","yiwx.png");
             var img2=document.getElementById('img2');
-            img1.setAttribute("src","erwx.png");
+            img2.setAttribute("src","erwx.png");
             var img3=document.getElementById('img3');
-            img1.setAttribute("src","sanwx.png");
+            img3.setAttribute("src","sanwx.png");
             var img4=document.getElementById('img4');
-            img1.setAttribute("src","siwx.png");
+            img4.setAttribute("src","siwx.png");
             var img5=document.getElementById('img5');
-            img1.setAttribute("src","endwx.png");
+            img5.setAttribute("src","endwx.png");
         } else {
-           
+            var img1=document.getElementById('img1');
+            img1.setAttribute("src","yi.png");
+            var img2=document.getElementById('img2');
+            img2.setAttribute("src","er.png");
+            var img3=document.getElementById('img3');
+            img3.setAttribute("src","san.png");
+            var img4=document.getElementById('img4');
+            img4.setAttribute("src","si.png");
+            var img5=document.getElementById('img5');
+            img5.setAttribute("src","end.png");
         };
         var i=0;
         var $btn = $('.section-btn li'),
